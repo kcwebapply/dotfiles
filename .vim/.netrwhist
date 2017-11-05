@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/var/www/summarico'
+let g:netrw_dirhist_2='/var'
+let g:netrw_dirhist_3='/etc/cron.d'
+let g:netrw_dirhist_4='/home/wkc0520/.vim'
+let g:netrw_dirhist_5='/var/www/vendor'
+let g:netrw_dirhist_6='/Users/keiwada/.vim'
+let g:netrw_dirhist_7='/Users/keiwada/.ssh'
+let g:netrw_dirhist_8='/Users/keiwada/Desktop/all/home/spring/javaSoul/.mvn/wrapper'

@@ -1,0 +1,19 @@
+[core]
+	excludesfile = /Users/keiwada/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /private/var/folders/3g/jprlx5491cd1t0mx779w6g28dy6v2g/T/AppTranslocation/9320C5D2-CAB7-45E5-9E20-3BABB77A4C77/d/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[user]
+	name = keiwada
+	email = keiwada@yahoo-corp.jp
+[alias]
+	s = status
+	c = checkout
+	b = branch
+	f = fetch
+	p = push
+	m = merge
+	o = origin
