@@ -5,8 +5,13 @@ directoryInit(){
    mkdir ~/.vim
    mkdir ~/.vim/dict
    mkdir ~/.vim/colors
-   mkdir ~/.vim/molokai
 }
+
+cloneRepositories(){
+   git clone https://github.com/tomasr/molokai
+   mv molokai/colors/molokai.vim ~/.vim/colors/molokai.vim
+}
+
 #dotfile以下のファイルをhome以下にコピーする
 copyDotfiles(){
   cp -f ~/dotfiles/.vimrc ~/.vimrc
@@ -21,6 +26,7 @@ initDotfiles(){
 }
 
 directoryInit
+cloneRepositories
 copyDotfiles
 initDotfiles
 
